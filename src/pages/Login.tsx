@@ -1,4 +1,5 @@
-
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,6 +16,11 @@ const Login = () => {
                 <input type="password" className="form-control" placeholder="Enter password" /><br/>
 
                 <button type="submit" className="btn btn-primary btn-block">Submit</button>
+
+                
+                <Link to="/register">
+                    <Button className="m-2" variant='danger'>Register</Button>
+                </Link>
                 
 
             </div>
