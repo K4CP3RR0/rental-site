@@ -8,8 +8,8 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Layout from './pages/Layout';
 import Login from './pages/Login';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
 
 function App() {
 
