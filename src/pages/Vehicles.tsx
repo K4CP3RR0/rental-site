@@ -1,8 +1,8 @@
 import { Button, Card } from "react-bootstrap";
 // import Footer from "../components/Footer/Footer";
-import bmw from "/bmw32023.jpg";
-import mercedes from "/klasac.jpg";
-import giulia from "/giulia.jpg";
+import bmw from "/images/bmw32023.jpg";
+import mercedes from "/images/klasac.jpg";
+import giulia from "/images/giulia.jpg";
 
 const Vehicles = () => {
   return (
