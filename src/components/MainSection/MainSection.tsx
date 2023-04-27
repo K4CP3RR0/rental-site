@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function MainPage() {
     return (
-        <>
-        <h1 className="">Welcome to 808 Dev Rental</h1>
+        <div className="container text-center">
+        <h1 >Welcome to 808 Dev Rental</h1>
         <p>We are renting cars and bikes for short or long period of time.
-            We have a wide range of cars and bikes to choose from.<br/>
+            We have a wide range of cars and motorcycles to choose from.<br/>
             We are located in the center of Warsaw, Poland.<br/>
             We are open 24/7.<br/>
             We have the best prices in the city.
@@ -22,7 +22,7 @@ export default function MainPage() {
             
        
 
-        </>
+        </div>
        
     );
 }

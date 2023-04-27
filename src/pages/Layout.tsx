@@ -27,7 +27,8 @@ const Layout = () => {
                 </Nav>
             <Nav>
             
-            <Nav.Link as={Link} to="/login">Log in <IonIcon name="log-in-outline" size="large"></IonIcon> 
+            <Nav.Link as={Link} to="/login">Log in 
+            {/* <IonIcon name="log-in-outline" size="large"></IonIcon>  */}
             </Nav.Link>
             </Nav>
             </Navbar.Collapse>

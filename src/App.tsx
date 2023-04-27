@@ -27,7 +27,7 @@ function App() {
   // const analytics = getAnalytics(app);
 
   return (
-    <>
+    <div >
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -41,7 +41,7 @@ function App() {
       </Routes>
     </BrowserRouter>
       
-    </>
+    </div>
   )
 }
 
