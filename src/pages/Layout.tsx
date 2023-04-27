@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import IonIcon from "@reacticons/ionicons";
+//import IonIcon from "@reacticons/ionicons";
 
 const Layout = () => {
     
