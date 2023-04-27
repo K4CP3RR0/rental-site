@@ -1,5 +1,8 @@
 import { Button, Card } from "react-bootstrap";
 // import Footer from "../components/Footer/Footer";
+import bmw from "/bmw32023.jpg";
+import mercedes from "/klasac.jpg";
+import giulia from "/giulia.jpg";
 
 const Vehicles = () => {
   return (
@@ -13,7 +16,7 @@ const Vehicles = () => {
         <div className="row align-items-start">
           <div className="col">
             <Card style={{ width: "20rem" }}>
-              <Card.Img variant="top" src="src/assets/bmw32023.jpg" />
+              <Card.Img variant="top" src={bmw} />
               <Card.Body>
                 <Card.Title>BMW Series 3 320i 2023</Card.Title>
                 <Card.Text>
@@ -29,7 +32,7 @@ const Vehicles = () => {
           </div>
           <div className="col">
             <Card style={{ width: "20rem" }}>
-              <Card.Img variant="top" src="src/assets/klasac.jpg" />
+              <Card.Img variant="top" src={mercedes} />
               <Card.Body>
                 <Card.Title>Mercedes Klasa C 200 W206 2023</Card.Title>
                 <Card.Text>
@@ -45,7 +48,7 @@ const Vehicles = () => {
           </div>
           <div className="col">
             <Card style={{ width: "20rem" }}>
-              <Card.Img variant="top" src="src/assets/giulia.jpg" />
+              <Card.Img variant="top" src={giulia} />
               <Card.Body>
                 <Card.Title>Alfa Romeo Giulia Quadrifoglio</Card.Title>
                 <Card.Text>
